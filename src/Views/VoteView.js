@@ -17,6 +17,7 @@ class VoteView extends React.Component {
                 <img src={controllerstate.catright.url} alt="Right cat"/>
             </div>
           <footer className="App-footer">
+          <a href="/rank"><button className="button">Voir les scores</button></a>
             <h6>Matthieu Beshara</h6>
             <a href="https://github.com/MatthieuDJ" target="_blank" rel="noreferrer"><button className="button">Github</button></a>
           </footer> 
