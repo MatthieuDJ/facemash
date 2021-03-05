@@ -6,10 +6,8 @@ function App() {
 
   return (
     <Router>
-      <switch>
         <Route path="/" exact component={VoteController} />
         <Route path="/rank" component={RankController} />
-      </switch>
     </Router>
   
   //<VoteController/>
