@@ -1,4 +1,4 @@
-import './RankView.css';
+import './VoteView.css';
 import React from "react";
 
 class RankView extends React.Component {
@@ -27,7 +27,7 @@ class RankView extends React.Component {
           <footer className="App-footer">
             <a href="/"><button className="button">Revenir au vote</button></a>
             <h6>Matthieu Beshara</h6>
-            <a href="https://github.com/MatthieuDJ" target="_blank" rel="noreferrer"><button className="button">Github</button></a>
+            <a href="https://github.com/MatthieuDJ/facemash" target="_blank" rel="noreferrer"><button className="button">Github</button></a>
           </footer> 
         </div>
       );

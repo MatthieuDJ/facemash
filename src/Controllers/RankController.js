@@ -9,16 +9,18 @@ class RankController extends React.Component {
         }
     }
 
-// Créer une variable globale me permettant de stocker 
-
 
 componentDidMount() {
-
-    }
+var catslist = images["images"]
+for (var i=0; i<catslist.length; i++){
+    catslist[i].id='cat_'+i;
+}
+}
 
     render(){
         return <RankView
         catslist = {images["images"]}
+
         />}
 }
 
